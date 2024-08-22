@@ -54,17 +54,20 @@
 ```bash
 git clone <repository-url>
 
-and npm install in both Backend and inotebook
+cd path/to/your/Backend - npm install
+cd path/to/your/inotebook - npm install
 
-and setup db.js 
+#Go to db.js and setup your Mongodb path
 MONGODB_URI=<your-mongodb-uri>
 JWT_SECRET=<your-jwt-secret>
 
-after run
+# run below code in cd path/to/your/inotebook
 npm run both 
+
 or
-for inotebook - 'cd ../inotebook' npm run start 
-and for backend 'cd ../backend' npm run dev 
+
+cd path/to/your/Backend - npm run dev
+cd path/to/your/inotebook - npm run start
 
 bash```
 
